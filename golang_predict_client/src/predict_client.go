@@ -1,10 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // usage: go run predict_client.go --server_addr 127.0.0.1:9000 --model_name dense --model_version 1
 package main
 
 import (
 	"flag"
 	"fmt"
-
 	framework "tensorflow/core/framework"
 	pb "tensorflow_serving"
 
